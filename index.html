@@ -1,87 +1,41 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-<meta charset="UTF-8">
-<title>Những con vật nuôi</title>
-
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        background: #eee;
-        padding: 20px;
-    }
-
-    h1 {
-        text-align: center;
-    }
-
-    .item {
-        margin-bottom: 30px;
-    }
-
-    .item img {
-        width: 200px;
-        display: block;
-        margin-bottom: 5px;
-    }
-
-    .desc-btn {
-        display: inline-block;
-        padding: 5px 10px;
-        background: #ddd;
-        border: 1px solid #999;
-        cursor: pointer;
-        font-size: 14px;
-    }
-
-    /* overlay mờ */
-    .overlay {
-        display: none;
-        position: fixed;
-        inset: 0;
-        background: rgba(0,0,0,0.4);
-        justify-content: center;
-        align-items: center;
-    }
-
-    /* popup */
-    .popup {
-        background: #fff;
-        width: 350px;
-        padding: 20px;
-        border-radius: 15px;
-        text-align: center;
-    }
-
-    .popup h2 {
-        margin-top: 0;
-    }
-
-    .popup button {
-        margin-top: 15px;
-        padding: 8px 25px;
-        border: none;
-        background: #007aff;
-        color: white;
-        border-radius: 20px;
-        font-size: 16px;
-        cursor: pointer;
-    }
-</style>
+    <meta charset="UTF-8">
+    <title>Các loại trái cây Việt Nam</title>
 </head>
 
 <body>
 
-<h1>Những con vật nuôi</h1>
+<h1>Các loại trái cây Việt Nam</h1>
 
-<div class="item">
-    <h3>Mèo Xiêm</h3>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Siamese_cat.jpeg">
-    <div class="desc-btn" onclick="showDesc('Đây là giống mèo cảnh nổi tiếng, có nguồn gốc từ Thái Lan.')">
-        Mô tả ảnh
-    </div>
-</div>
+<a href="https://vi.wikipedia.org/wiki/Xo%C3%A0i" target="_blank">
+    <p>Xoài</p>
+</a>
+<img src="img/anh1.jpg" alt="Quả xoài" style="width:150px; height:150px;">
+<button onclick="alert('Xoài là loại trái cây nhiệt đới phổ biến, có vị ngọt hoặc chua, rất giàu vitamin C.')">
+    Mô tả ảnh
+</button>
 
-<div class="item">
-    <h3>Mèo Ba Tư</h3>
-    <img src="https://upload.wik
+<br><br>
+
+<a href="https://vi.wikipedia.org/wiki/Chu%E1%BB%91i" target="_blank">
+    <p>Chuối</p>
+</a>
+<img src="img/anh2.jpg" alt="Quả chuối" style="width:150px; height:150px;">
+<button onclick="alert('Chuối là loại trái cây quen thuộc, dễ ăn, cung cấp nhiều năng lượng và kali.')">
+    Mô tả ảnh
+</button>
+
+<br><br>
+
+<a href="https://vi.wikipedia.org/wiki/D%E1%BB%ABa" target="_blank">
+    <p>Dừa</p>
+</a>
+<img src="img/anh3.jpg" alt="Quả dừa" style="width:150px; height:150px;">
+<button onclick="alert('Dừa có nước thanh mát, cơm dừa béo, thường được dùng trong nhiều món ăn và thức uống.')">
+    Mô tả ảnh
+</button>
+
+</body>
+</html>
